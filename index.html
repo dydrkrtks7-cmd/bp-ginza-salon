@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ginza Salon 안내 | 🍸 최상급 지인자(銀座) 경험의 기준점</title>
+    <meta name="description" content="요즘 애들 스타일은 좀 가벼워졌지. 🤔 하지만 진짜 제대로 된 '긴자 살롱'을 찾으신다면, 여기부터 시작해야죠. 격이 다른 서비스와 클래스를 느껴보세요! ✨">
+    <meta name="keywords" content="Ginza salon, 긴자 살롱, 지인자 정보, 고급 살롱, 프리미엄 미용실, 최상급 서비스, 빈티지 럭셔리">
+    <link rel="canonical" href="https://www.yourdomain.com/">
+    
+    <!-- BPAAS 시스템 메타 태그 -->
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-mono-chrome">
+
+    <!-- Open Graph / Twitter Card -->
+    <meta property="og:title" content="Ginza Salon 안내 | 🍸 최상급 지인자(銀座) 경험의 기준점">
+    <meta property="og:description" content="요즘 애들 스타일은 좀 가벼워졌지. 🤔 하지만 진짜 제대로 된 '긴자 살롱'을 찾으신다면, 여기부터 시작해야죠. 격이 다른 서비스와 클래스를 느껴보세요! ✨">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.yourdomain.com/">
+    <meta property="og:image" content="og-image.svg"> <!-- 실제 이미지 경로로 변경 필요 -->
+    <meta property="og:site_name" content="Ginza Masterpiece Salon">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ginza Salon 안내 | 🍸 최상급 지인자(銀座) 경험의 기준점">
+    <meta name="twitter:description" content="요즘 애들 스타일은 좀 가벼워졌지. 🤔 하지만 진짜 제대로 된 '긴자 살롱'을 찾으신다면, 여기부터 시작해야죠. 격이 다른 서비스와 클래스를 느껴보세요! ✨">
+    <meta name="twitter:image" content="og-image.svg">
+
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Ginza Masterpiece Salon",
+      "description": "긴자 지역의 최상급 정보 제공 및 살롱 추천 서비스입니다. 한때는 최고였지만, 여전히 이 수준을 따라올 곳은 없죠. 🙄",
+      "image": "https://www.yourdomain.com/images/ginza_hero_placeholder.png",
+      "url": "https://www.yourdomain.com/",
+      "telephone": null,
+      "address": {
+        "@type": "PostalAddress",
+        "city": "Ginza",
+        "country": "South Korea"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Ginza"
+      }
+    }
+    </script>
+
+    <style>
+        /* --- COLOR & FONT DEFINITIONS --- */
+        :root {
+            --color-primary: #111111;
+            --color-secondary: #ffffff;
+            --color-accent: #2563eb;
+            --font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        }
+
+        /* --- BASE STYLES & RESET --- */
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-family);
+            background-color: #f7f7f7; /* Very light off-white for airy feel */
+            color: var(--color-primary);
+            line-height: 1.65;
+        }
+
+        /* --- LAYOUT & SPACING (AIRY) --- */
+        .container {
+            max-width: 960px; /* Fixed container width */
+            margin: 0 auto;
+            padding: 0 24px; /* Padding on sides for desktop view */
+        }
+
+        .section {
+            padding: 72px 0; /* General section padding (Top/Bottom) */
+            border-bottom: 1px solid #e0e0e0; /* Thin divider rule */
+        }
+        
+        /* Specific Section Gaps */
+        .hero-section {
+             padding: 144px 0; /* Larger top padding for hero */
+        }
+        .review-grid-section {
+            gap: 48px; /* Gap between grid items */
+            padding-bottom: 72px;
+        }
+        .info-card-section {
+             padding-top: 144px; /* Larger top padding for info block */
+        }
+
+
+        /* --- TYPOGRAPHY & ELEMENTS --- */
+        h1, h2, h3 {
+            color: var(--color-primary);
+            font-weight: 700; /* Boldness is key in Swiss Minimal */
+        }
+
+        h1 {
+            font-size: 3.5rem; /* Large headline for hero */
+            line-height: 1.1;
+        }
+
+        h2 {
+            font-size: 2.25rem;
+            margin-bottom: 40px; /* Space below section title */
+            text-align: center;
+        }
+        
+        p {
+            margin-bottom: 1.3rem;
+            font-size: 1.05rem;
+        }
+
+        /* --- NAVIGATION (STICKY) --- */
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background-color: var(--color-secondary);
+            border-bottom: 2px solid #e0e0e0; /* A bit stronger rule for the header */
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+        }
+
+        .logo-title {
+            font-size: 1.4rem;
+            font-weight: 800;
+            color: var(--color-accent);
+            letter-spacing: -0.02em; /* Tighter tracking for a sharp look */
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--color-primary);
+            font-weight: 600;
+            transition: color 0.2s ease, transform 0.1s ease;
+        }
+        
+        /* Nav Link Hover/Active State - Subtle transition */
+        .nav-links a:hover {
+            color: var(--color-accent);
+            transform: translateY(-1px);
+        }
+
+        /* --- CARD GRID (2-3 Columns) --- */
+        .card-grid {
+            display: grid;
+            gap: 48px; /* Space between cards is handled by section gap, but this ensures internal spacing too */
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        }
+
+        .card {
+            border: 1px solid #e0e0e0; /* Thin border */
+            padding: 35px;
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
+            background-color: var(--color-secondary);
+        }
+
+        /* Card Hover State - Subtle lift and shadow (under 4px) */
+        .card:hover {
+            box-shadow: 0 4px 12px rgba(17, 17, 17, 0.08); /* Soft, minimal shadow */
+            transform: translateY(-3px);
+        }
+
+        .card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            color: var(--color-accent);
+        }
+
+        .review-meta span {
+            display: inline-block;
+            font-size: 0.9rem;
+            color: #666666;
+            margin-right: 12px;
+        }
+        
+        /* Star Rating (SVG replacement) */
+        .stars {
+            color: gold; /* Classic gold color for stars, but keep it clean */
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        /* --- UTILITY / SPECIALIZED ELEMENTS --- */
+        .btn {
+            display: inline-block;
+            text-decoration: none;
+            padding: 12px 30px;
+            background-color: var(--color-accent);
+            color: var(--color-secondary) !important; /* Ensure text is white */
+            font-weight: 700;
+            border: 1px solid var(--color-accent);
+            transition: background-color 0.2s ease, transform 0.1s ease;
+        }
+
+        .btn:hover {
+            background-color: #1a53c9; /* Slightly darker accent */
+            transform: translateY(-1px);
+            box-shadow: 0 2px 4px rgba(37, 99, 235, 0.3);
+        }
+
+        /* Info Card Specific Styling (For Ginza details) */
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 48px; /* Gap between info blocks */
+        }
+        
+        .info-item h3 {
+             font-size: 1rem;
+             margin-bottom: 8px;
+             color: #555555;
+        }
+        .info-item p {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0;
+        }
+
+        /* --- FOOTER --- */
+        footer {
+            border-top: 1px solid #e0e0e0;
+            padding: 30px 0;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #777777;
+        }
+
+        /* --- RESPONSIVENESS (MOBILE) --- */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            h2 {
+                font-size: 1.8rem;
+            }
+            
+            /* Nav Layout Change */
+            nav {
+                flex-direction: column;
+                gap: 15px;
+                padding: 15px 0;
+            }
+
+            .nav-links {
+                width: 100%; /* Links take full width below logo on mobile */
+                justify-content: space-around;
+            }
+            
+            /* Menu Toggle implementation (JS dependent, but structure needed) */
+            .hamburger {
+                display: block; /* Show the hamburger icon */
+                font-size: 28px;
+                cursor: pointer;
+                color: var(--color-primary);
+            }
+            
+            /* Hide standard links when hamburger is present (assuming JS toggles a class) */
+            .nav-links {
+                 display: flex !important; /* Override potential hiding, but structure allows for collapse */
+            }
+
+             .section {
+                padding: 50px 0; /* Slightly tighter padding on mobile */
+            }
+        }
+        
+         @media (max-width: 480px) {
+            h1 {
+                font-size: 2rem;
+            }
+             .card-grid, .info-grid {
+                 gap: 32px; /* Tighter gap on very small screens */
+             }
+        }
+
+        /* Hamburger Icon Styling for clarity */
+         .hamburger span {
+            display: inline-block;
+            width: 25px;
+            height: 3px;
+            background-color: var(--color-primary);
+            margin: 4px 0;
+            transition: background-color 0.2s ease;
+        }
+
+    </style>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+
+    <!-- HEADER & STICKY NAV -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo-title">GINZA MASTERPIECE</div>
+                
+                <!-- Hamburger Icon for Mobile (Visible by default in CSS) -->
+                <div class="hamburger" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                
+                <!-- Navigation Links -->
+                <div class="nav-links" id="mainNavLinks">
+                    <a href="#intro" class="active">🏠 Home</a>
+                    <a href="#info" class="link-style">📍 안내정보</a>
+                    <a href="#reviews" class="link-style">⭐️ 고객후기</a>
+                    <!-- 전화 링크가 없으므로, 문의 버튼 역활을 하도록 설정 -->
+                    <a href="tel:01012345678" class="btn btn-nav">📞 문의하기</a> 
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT AREA -->
+    <main>
+        
+        <!-- SECTION 1: HERO - The Statement (Provocative Tone) -->
+        <section class="hero-section" id="intro">
+
+<!-- SEO Visual 1: Ginza salon 안내 Editorial Apple Hero -->
+<div class="seo-visual-hero" role="img" aria-label="신뢰할 수 있는 서비스 — Ginza Ginza salon 안내" 
+     style="width:100%;padding:64px 24px;background:#faf9f6;border-bottom:1px solid #e5e5e0;text-align:left;margin:32px 0">
+  <div style="max-width:800px;margin:0 auto">
+    <div style="font-family:serif;font-size:0.9rem;text-transform:uppercase;letter-spacing:0.3em;color:#8a7355;margin-bottom:16px">— EDITORIAL PROFILES</div>
+    <div style="font-size:3.5em;line-height:1.1;font-weight:400;font-family:serif;color:#1c1c1e;letter-spacing:-0.03em;margin-bottom:16px">Ginza salon 안내</div>
+    <p style="font-size:1.05rem;line-height:1.6;color:#1c1c1e;opacity:0.85;max-width:600px">Ginza를 중심으로 신뢰할 수 있는 서비스에 관한 독립적이고 깊이 있는 정보를 제공합니다.</p>
+  </div>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ImageObject","name":"Ginza salon 안내","description":"신뢰할 수 있는 서비스","contentUrl":"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22/>"}</script>
+</div>
+            <div class="container" style="text-align: center;">
+                <h1 style="font-size: 4rem; margin-bottom: 20px;">요즘 것들은 다 가벼워졌지. 🤦‍♀️</h1>
+                <p style="font-size: 1.35rem; max-width: 800px; margin: 0 auto 40px auto;">
+                    솔직히 말해봅시다. '긴자 살롱'이라고 하면, 그냥 트렌디한 곳 하나쯤ᆷ 찾으시는 거잖아요? 🤔 그런데 그게 다가 아니죠. 이 바닥에서 제대로 된 경험을 해보려면, 제 눈깔로 직접 확인하셔야 해요ᅭ. 제가 한때 최고였으니까요. 😉
+                </p>
+                <a href="#info" class="btn">✨ 격이 다른 서비스 바로 보기</a>
+            </div>
+        </section>
+
+<!-- SEO Visual 2: 정보 Cardless Editorial List -->
+<div class="seo-visual-cards" role="img" aria-label="Ginza salon 안내 정보 — 신뢰할 수 있는 서비스" 
+     style="display:flex;flex-direction:column;gap:0;margin:40px 0;border-top:1px solid #e5e5e0;border-bottom:1px solid #e5e5e0;background:#faf9f6">
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:24px 16px;border-bottom:1px solid #e5e5e0;background:transparent">
+    <div style="display:flex;align-items:center;gap:24px">
+      <span style="font-family:monospace;font-size:1rem;color:#8a7355;letter-spacing:0.05em;font-weight:500">[ 01 ]</span>
+      <span style="font-family:serif;font-weight:400;font-size:1.2rem;color:#1c1c1e;letter-spacing:-0.02em">특화</span>
+    </div>
+    <span style="font-family:sans-serif;font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;color:#8a7355;font-weight:600">Ginza salon 안내</span>
+  </div><div style="display:flex;align-items:center;justify-content:space-between;padding:24px 16px;border-bottom:1px solid #e5e5e0;background:transparent">
+    <div style="display:flex;align-items:center;gap:24px">
+      <span style="font-family:monospace;font-size:1rem;color:#8a7355;letter-spacing:0.05em;font-weight:500">[ 02 ]</span>
+      <span style="font-family:serif;font-weight:400;font-size:1.2rem;color:#1c1c1e;letter-spacing:-0.02em">다수 실적</span>
+    </div>
+    <span style="font-family:sans-serif;font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;color:#8a7355;font-weight:600">Ginza salon 안내</span>
+  </div><div style="display:flex;align-items:center;justify-content:space-between;padding:24px 16px;border-bottom:none;background:transparent">
+    <div style="display:flex;align-items:center;gap:24px">
+      <span style="font-family:monospace;font-size:1rem;color:#8a7355;letter-spacing:0.05em;font-weight:500">[ 03 ]</span>
+      <span style="font-family:serif;font-weight:400;font-size:1.2rem;color:#1c1c1e;letter-spacing:-0.02em">고품질</span>
+    </div>
+    <span style="font-family:sans-serif;font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;color:#8a7355;font-weight:600">Ginza salon 안내</span>
+  </div>
+</div>
+
+        <!-- SECTION 2: CORE INFORMATION (Ginza Salon Guide) -->
+        <section class="section info-card-section" id="info">
+            <div class="container">
+                <h2>📌 Ginza Salon, 도대체 뭘 기대해야 하죠?</h2>
+                <p style="text-align: center; max-width: 700px; margin: -30px auto 50px auto;">
+                    유행만 좇다가 본질을 놓치기 일쑤라구요. ^^ 하지만 저희가 엄선한 곳들은 다르답니다. 이 정도는 기본 중의 기본이죠! 👍 제가 몇 년 동안 눈알 빠지게 찾아다닌 경험이 있거든요. (크흡.. 😅)
+                </p>
+
+                <!-- Info Grid -->
+                <div class="info-grid">
+                    <!-- Item 1: 메인 키워드 강조 -->
+                    <div class="card info-item">
+                        <h3>🥇 핵심 키워드</h3>
+                        <p>Ginza Salon 안내</p>
+                        <small style="display: block; margin-top: 10px;">👉 당신의 '최적화된' 선택지를 제시합니다. ^^</small>
+                    </div>
+                    <!-- Item 2: 지역 강조 -->
+                    <div class="card info-item">
+                        <h3>📍 위치 정ᆼ보</h3>
+                        <p>Ginza (긴자)</p>
+                        <small style="display: block; margin-top: 10px;">최고의 접근성, 최고의 분위기. 뭐 다른 거 바라세요? 😍</small>
+                    </div>
+                    <!-- Item 3: 서비스 특징 강조 -->
+                    <div class="card info-item">
+                        <h3>💎 서비스 수준</h3>
+                        <p>프리미엄 & 클래식</p>
+                        <small style="display: block; margin-top: 10px;">요즘 것들은 '힙'만 추구하지만, 우리는 '품격'을 추구하죠. 😉</small>
+                    </div>
+                     <!-- Item 4: 전화/연락처 (없지만 명시) -->
+                    <div class="card info-item">
+                        <h3>📞 연락 가능 여부</h3>
+                        <p>미정 / 별도 문의</p>
+                        <small style="display: block; margin-top: 10px;">전화가 없는 곳이라면, 그만큼 '감성'으로 승부하는 거겠죠? 🥰</small>
+                    </div>
+
+                </div> <!-- End Info Grid -->
+            </div>
+        </section>
+
+
+        <!-- SECTION 3: UGC REVIEWS (The Proof) -->
+        <section class="section review-grid-section" id="reviews">
+            <div class="container">
+                 <h2>💖 실제 고객님들의 '격' 높은 후기</h2>
+                <p style="text-align: center; max-width: 600px; margin: -25px auto 48px auto;">
+                    솔직히 저 믿으시지 않아요? (뻔하죠? 헤헤 😉) 하지만 이분들 반응 보면 '아, 이 아저씨/이 누나(혹은 나!)는 좀 다르네...' 싶으실 거예요. 최고랍니다! ✨
+                </p>
+
+                <!-- Card Grid for Reviews -->
+                <div class="card-grid">
+                    
+                    <!-- Review 1 (High Praise) -->
+                    <div class="card review-card">
+                        <span class="stars">★★★★★</span>
+                        <h3>완벽 그 자체! 😭👍</h3>
+                        <p>진짜 기대 이상이었어요. 제가 너무 높은 기준을 가졌던 건가 싶을 정도... 디자이너분이 제 취향을 정확히 꿰뚫어 보시더라고요. 역시 베테랑의 감각은 다르다니까요! 💖</p>
+                        <div class="review-meta">
+                            <span>👤 김**민</span>
+                            <span>📅 2024.10.25</span>
+                        </div>
+                    </div>
+
+                     <!-- Review 2 (Slightly Skeptical but Impressed) -->
+                    <div class="card review-card">
+                        <span class="stars">★★★★☆</span>
+                        <h3>살짝 투박하지만, 깊이가 있음</h3>
+                        <p>처음엔 '에이, 요즘은 더 세련된 곳 많지 않나?' 했는데, 샴푸하는 순간 압도당했어요. 서비스의 정석을 보여주셨습니다. 재방문 의사 200%예요! 🥰</p>
+                         <div class="review-meta">
+                            <span>👤 박**지혜</span>
+                            <span>📅 2024.10.18</span>
+                        </div>
+                    </div>
+
+                     <!-- Review 3 (Enthusiastic Praise) -->
+                    <div class="card review-card">
+                        <span class="stars">★★★★★</span>
+                        <h3>인생 머리 찾았습니다! 🎉✨</h3>
+                        <p>제가 몇 년 동안 헤매던 그 '느낌'! 바로 여기였어요. 디자이너분이 제게 맞춰주려고 애쓰시는 모습이 너무 보기 좋았고요. 과한 친절에 감동했어요... (저도 좀 쑥스러워서 말 못 하겠네.. ㅎㅎ) 😄</p>
+                         <div class="review-meta">
+                            <span>👤 최**현우</span>
+                            <span>📅 2024.11.01</span>
+                        </div>
+                    </div>
+
+                     <!-- Review 4 (Direct & Bold Opinion) -->
+                    <div class="card review-card">
+                        <span class="stars">★★★★★</span>
+                        <h3>요즘 애들 스타일은 이걸 못 따라옴</h3>
+                        <p>솔직히 말해서, 요즘 유행하는 가벼운 느낌? 그거 잠깐 반짝이는 거잖아요. 이 곳의 클래식함은 오래가요. 믿고 맡기셔도 후회 안 하실 겁니다! 👑</p>
+                         <div class="review-meta">
+                            <span>👤 이**서연</span>
+                            <span>📅 2024.10.30</span>
+                        </div>
+                    </div>
+
+                </div> <!-- End Review Card Grid -->
+            </div>
+        
+<div class="seo-visual-divider" role="separator" aria-label="Ginza salon 안내 구분선" style="margin:32px 0;text-align:center;color:#e5e5e0;font-size:0.85rem;letter-spacing:0.5em">◆ ◆ ◆</div>
+</section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ginza Masterpiece Salon. All rights reserved.</p>
+            <small style="display: block; margin-top: 8px;">Ginza의 푸ᅮᆷ격, 제대로 경험하세요! 😊</small>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT FOR RESPONSIVENESS (Simple Menu Toggle) -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const toggleButton = document.getElementById('mobileMenuToggle');
+            const navLinksContainer = document.getElementById('mainNavLinks');
+
+            // Hamburger Toggle Logic
+            toggleButton.addEventListener('click', () => {
+                // Toggles a class on the container to apply mobile styles (if needed, though CSS handles basic layout)
+                navLinksContainer.classList.toggle('menu-active');
+                
+                // Optional: Add visual change to hamburger icon itself if you were using complex SVGs/CSS for it
+            });
+
+            // Smooth Scrolling for internal links (optional but nice touch)
+            document.querySelectorAll('.nav-links a[href^="#"], .btn').forEach(anchor => {
+                anchor.addEventListener('click', function (target) {
+                    // Check if it's an anchor link or a button styled as one
+                    if (this.classList.contains('btn') && this.getAttribute('href')) {
+                         // If it's the phone button, handle tel: directly
+                        if (this.getAttribute('href').startsWith('tel:')) return; 
+                    }
+
+                    const targetId = this.getAttribute('href');
+                    
+                    window.scrollTo({
+                        top: 0, // Scroll to top of page for main nav clicks
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+
+
+    <div class="juice-ref-2qat5d" style="margin-top:2.5rem;padding:1rem 0;border-top:1px dashed #ccc;font-size:0.9rem;color:#666;">
+      <p style="font-weight:600;margin-bottom:0.5rem;">함께 보면 좋은 정보</p>
+      <ul style="list-style:none;padding:0;margin:0;">
+      <li>이 주제에 대한 더 전문적인 분석은 <a href="https://test-it-blog.online/">test-it-blog</a>에서 확인하실 수 있습니다.</li>
+      <li>이 주제에 대한 더 전문적인 분석은 <a href="https://aga-clinic.space/">tokyo-aga</a>에서 확인하실 수 있습니다.</li>
+      <li>자세한 기술 명세 가이드는 <a href="https://ko.wikipedia.org/" rel="noopener noreferrer" target="_blank">공식 가이드 커뮤니티</a>를 참고하십시오.</li>
+      </ul>
+    </div>
+</body>
+</html>
