@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-  <title><![CDATA[Ginza Ginza salon 안내]]></title>
-  <link>https://</link>
-  <description><![CDATA[Ginza 정보 관련 최신 뉴스, 서비스 안내, 리얼 후기 정보를 신속하게 전달하는 공식 RSS 피드입니다.]]></description>
-  <language>ko-KR</language>
-  <pubDate>Tue, 26 May 2026 09:23:56 GMT</pubDate>
-  <lastBuildDate>Tue, 26 May 2026 09:23:56 GMT</lastBuildDate>
-  <atom:link href="https:///feed.xml" rel="self" type="application/rss+xml" />
+  <title><![CDATA[정보]]></title>
+  <link>https://dydrkrtks7-cmd.github.io/bp-ginza-salon</link>
+  <description><![CDATA[정보 - Ginza salon 안내 관련 최신 소식 및 가이드]]></description>
+  <language>ko</language>
+  <pubDate>Tue, 09 Jun 2026 23:40:19 GMT</pubDate>
+  <lastBuildDate>Tue, 09 Jun 2026 23:40:19 GMT</lastBuildDate>
+  <atom:link href="https://dydrkrtks7-cmd.github.io/bp-ginza-salon/feed.xml" rel="self" type="application/rss+xml" />
   
     <item>
-      <title><![CDATA[Ginza Ginza salon 안내 - 공식 홈페이지 오픈 안내]]></title>
-      <link>https:///</link>
-      <guid isPermaLink="true">https:///</guid>
-      <description><![CDATA[Ginza 정보 관련 최신 뉴스, 서비스 안내, 리얼 후기 정보를 신속하게 전달하는 공식 RSS 피드입니다.]]></description>
-      <pubDate>Tue, 26 May 2026 09:23:56 GMT</pubDate>
+      <title><![CDATA[창작한 제목]]></title>
+      <link>https://dydrkrtks7-cmd.github.io/bp-ginza-salon/posts/review-001-1154hyf.html</link>
+      <guid isPermaLink="true">https://dydrkrtks7-cmd.github.io/bp-ginza-salon/posts/review-001-1154hyf.html</guid>
+      <description><![CDATA[### "NSA 프리즘 프로그램 슬라이드, 비밀이 숨는 곳 – 초보자와 전문가의 선택 차異" #### 소제목1. **슬레이더 USB에 담긴 원본 vs 언론 공개 본**2. **내부고발자의 진실과 음모론의 갈등** ##### 구조: field-log — 관찰 시각, 단서]]></description>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
     </item>
 </channel>
 </rss>
