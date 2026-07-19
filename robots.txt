@@ -7,4 +7,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://dydrkrtks7-cmd.github.io/bp-ginza-salon/sitemap.xml
+Sitemap: https://ginza-salon-guide.pbn-builder.xyz/sitemap.xml
